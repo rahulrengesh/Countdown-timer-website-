@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+    
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: turquoise;
+}
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.countdown{
+    display: flex;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.day,.hour,.minute,.second{
+    font-size: 3rem;
+    color: rgb(238, 89, 20);
+}
+.img{
+    padding: 1rem;
+    height: 50vh;
+}
